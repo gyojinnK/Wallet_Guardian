@@ -46,7 +46,7 @@ const ExpenseForm = (props) => {
         e.preventDefault(); // form의 submit 버튼을 수행할 때 페이지가 재로딩 되는 것을 방지.
         const expenseData = {
             title: enteredTitle,
-            amount: enteredAmount,
+            amount: +enteredAmount,
             date: new Date(enteredDate),
         };
 
