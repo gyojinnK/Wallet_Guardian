@@ -4,6 +4,7 @@ import NewExpense from "./components/NewExpense/NewExpense";
 import Expenses from "./components/Expenses/Expenses";
 
 const DUMMY_EXPENSE = [
+    // id값을 이용하여 React는 요소를 구별, 랜더링하는 것에 이용한다.
     {
         id: "e1",
         title: "Toilet Paper",
